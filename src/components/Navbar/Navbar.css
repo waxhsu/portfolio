@@ -1,0 +1,38 @@
+
+
+
+.Navbar{
+  z-index: 1;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 20% 0 20%;
+  background-color: rgb(231, 228, 228);
+  opacity: 80%;
+  position: sticky;
+  top: 0;
+}
+
+.Navbar-options {
+  min-height: 5vh;
+  font-weight: 500;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+a:link{
+  text-decoration: none;
+}
+
+a:visited{
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.Navbar-link {
+  color: black;
+}

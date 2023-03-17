@@ -1,0 +1,21 @@
+.Landing {
+  max-height: 100vh;
+}
+
+.myName {
+  min-height: 5vh;
+  font-size: 100px;
+  padding: 125px 0 0 0;
+}
+
+.descVSFace {
+  padding: 125px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.portrait img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
