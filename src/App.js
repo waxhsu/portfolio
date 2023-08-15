@@ -10,15 +10,18 @@ import Contact from './components/Contact/Contact.js'
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
+      <About />
       <Landing />
       <Projects />
-      <About />
       {/* <Skills /> */}
       <Contact />
       {/* <Footer /> */}
     </div>
   );
 }
+
+// a button to change different styles of formatting?
+// newspaper EXTRE! EXTRE! READ ALL ABOUT IT type style?
 
 export default App;
