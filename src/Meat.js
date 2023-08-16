@@ -1,4 +1,4 @@
-import projects_placeholder from './images/placeholder4.gif';
+import projects_placeholder from './images/uglyhandsclub.png';
 
 export const TITLES = [
   {
@@ -22,7 +22,7 @@ export const PROJECTS = [
   {
     name: `Ugly Hands Club`,
     src: projects_placeholder,
-    desc: `Webstore specialized in climbing themed apparels`,
+    desc: `Webstore specialized in climbing apparels`,
   },
   {
     name: `Average Service Provider Service`,
