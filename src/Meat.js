@@ -14,11 +14,6 @@ export const TITLES = [
 
 
 export const PROJECTS = [
-  // {
-  //   name: `Now or Never Repair`,
-  //   src: projects_placeholder,
-  //   desc: `A client commissioned website for small businesses to find repairmen on-demand in Lower Manhattan`,
-  // },
   {
     name: `Ugly Hands Club`,
     src: projects_placeholder,

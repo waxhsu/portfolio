@@ -1,13 +1,41 @@
 import './Landing.css';
-import Slider from 'react-animated-slider';
-import { TITLES } from '../../Meat.js';
-import 'react-animated-slider/build/horizontal.css';
-import MAX from '../../images/MAX.png';
+// import Slider from 'react-animated-slider';
+// import { TITLES } from '../../Meat.js';
+// import 'react-animated-slider/build/horizontal.css';
+// import MAX from '../../images/MAX.png';
+import placeholder1 from '../../images/placeholder1.png';
 
 function Landing(){
     return (
         <div className="Landing">
-          <div className="descVSFace">
+            <div className='landingText'>
+                <p>Hey there! I'm Max - web developer and graphic designer! I love creating stuff and feel free to check it out. If you got any ideas, let's chat and make some design magic happen!
+                </p>
+            </div>
+            <div className="landingStart">
+                <img src={placeholder1} />
+                <p>SCROLL TO START</p>
+            </div>
+        </div>
+    )
+}
+
+export default Landing;
+
+/* IF I WANT TO ADD IMAGE */
+/* {CONTENT.map((item, index) => (
+          <div
+            key={index}
+            style={{
+              background: `url('${item.image}') no-repeat center center`,
+              backgroundSize: `contain`,
+            }}
+          ></div>
+        ))} */
+
+
+
+          {/* <div className="descVSFace">
             <div>
               <div className="myName">Max Hsu</div>
               <Slider
@@ -30,21 +58,4 @@ function Landing(){
             </div>
 
           </div>
-
-
-        </div>
-    )
-}
-
-export default Landing;
-
-/* IF I WANT TO ADD IMAGE */
-/* {CONTENT.map((item, index) => (
-          <div
-            key={index}
-            style={{
-              background: `url('${item.image}') no-repeat center center`,
-              backgroundSize: `contain`,
-            }}
-          ></div>
-        ))} */
+ */}
