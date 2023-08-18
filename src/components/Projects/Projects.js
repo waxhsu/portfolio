@@ -17,10 +17,8 @@ function Projects() {
                             </div>
                         </a>
                         </div>
-                        <h3>{project.name}</h3>
-                        <div className='projectTitle'>
-                        <h3>{project.class} - {project.year}</h3>
-                        </div>
+                            <h2>{project.name}</h2>
+                            <h4>{project.class} • {project.year}</h4>
                     </div>
                 );
                 })}
