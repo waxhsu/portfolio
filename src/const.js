@@ -18,17 +18,24 @@ export const PROJECTS = [
     name: `Ugly Hands Club`,
     src: projects_placeholder,
     desc: `Webstore specialized in climbing apparels`,
+    class: `Webstore`,
+    year: `2023`,
   },
   {
-    name: `Average Service Provider Service`,
+    name: `AVRG service`,
     src: projects_placeholder,
     desc: `A dry humor website because haha lol`,
+    class: `Dry humor`,
+    year: `2023`,
   },
   {
-    name: `Pokémon silhouette guesser API`,
+    name: `Pokémon silhouette API`,
     src: projects_placeholder,
     desc: `A simple quiz game to test your knowledge using the Pokémon API`,
+    class: `Simple Quiz`,
+    year: `2022`,
   },
+  
   // {
   //   name: `Three Man dice game`,
   //   src: projects_placeholder,

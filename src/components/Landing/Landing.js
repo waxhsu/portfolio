@@ -1,6 +1,6 @@
 import './Landing.css';
 // import Slider from 'react-animated-slider';
-// import { TITLES } from '../../Meat.js';
+// import { TITLES } from '../../const.js';
 // import 'react-animated-slider/build/horizontal.css';
 // import MAX from '../../images/MAX.png';
 import placeholder1 from '../../images/placeholder1.png';
