@@ -3,17 +3,19 @@ import './Landing.css';
 // import { TITLES } from '../../const.js';
 // import 'react-animated-slider/build/horizontal.css';
 // import MAX from '../../images/MAX.png';
-import placeholder1 from '../../images/placeholder1.png';
+import downarrow from '../../images/downarrow.gif';
 
 function Landing(){
     return (
         <div className="Landing">
             <div className='landingText'>
-                <p>Hey there! I'm Max - web developer and graphic designer! I love creating stuff and feel free to check it out. If you got any ideas, let's chat and make some design magic happen!
+                <p>Hey there! I'm Max - web developer and graphic designer!
+                </p>
+                <p> I love creating stuff and feel free to check it out. If you got any ideas, let's chat and make some design magic happen!
                 </p>
             </div>
             <div className="landingStart">
-                <img src={placeholder1} />
+                <img src={downarrow} />
                 <p>SCROLL TO START</p>
             </div>
         </div>

@@ -19,7 +19,7 @@ export const PROJECTS = [
   {
     name: `Ugly Hands Club`,
     src: uglyhandsclub,
-    desc: `Webstore specialized in climbing apparels`,
+    desc: `Webstore specialized in climbing gear`,
     class: `Webstore`,
     year: `2023`,
   },

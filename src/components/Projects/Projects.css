@@ -1,6 +1,6 @@
 .Projects{
   min-height: 60vh;
-  padding-top: 10vh;
+  padding-top: 5vh;
   padding-bottom: 10vh;
   }
 
@@ -20,7 +20,7 @@
   width: 80%;
   max-width: 30%;
   margin: 2.5%;
-  border: 1px blue solid;
+  /* border: 1px blue solid; */
   background: rgba(236, 236, 236, 0.6);
   padding: 0 1vh 1vh 1vh;
   margin-bottom: 1vh;
@@ -33,7 +33,7 @@
   position: relative;
   margin: auto;
   overflow: hidden;
-  border: 1px green solid;
+  /* border: 1px green solid; */
   margin: 10%;
   border-radius: 20px;
 }
