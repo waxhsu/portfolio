@@ -6,7 +6,7 @@ import placeholder3 from '../../images/placeholder3.gif';
 function About() {
     return (
         <div className="About">
- 
+            
         </div>
     );
 }

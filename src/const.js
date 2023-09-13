@@ -17,6 +17,13 @@ export const TITLES = [
 
 export const PROJECTS = [
   {
+    name: `Game Project`,
+    src: projects_placeholder,
+    desc: `You are unemployed and sending job applications`,
+    class: `Web browser game`,
+    year: `2023`,
+  },
+  {
     name: `Ugly Hands Club`,
     src: uglyhandsclub,
     desc: `Webstore specialized in climbing gear`,
@@ -29,13 +36,6 @@ export const PROJECTS = [
     desc: `A dry humor website because haha lol`,
     class: `Dry humor`,
     year: `2023`,
-  },
-  {
-    name: `Project 3`,
-    src: projects_placeholder,
-    desc: `Lorem ipsum something about sitting posture and how that destroys your back`,
-    class: `Posture Guide`,
-    year: `2022`,
   },
   {
     name: `Project 4`,
